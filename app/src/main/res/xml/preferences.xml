@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/pref_title_widget" >
+        <CheckBoxPreference 
+	        android:key="pref_key_widget_update"
+	        android:summary="@string/pref_summary_widget_update"
+	        android:title="@string/pref_title_widget_update"
+	        android:defaultValue="false"
+	        />
+    </PreferenceCategory>
+        
+    <PreferenceCategory android:title="@string/pref_title_arduino_values" >
+        <EditTextPreference
+            android:key="pref_key_arduino_light_threshold"
+            android:title="@string/pref_title_arduino_light_threshold"
+            android:summary="@string/pref_summary_arduino_light_threshold"
+            android:defaultValue="800" 
+            />
+        <ListPreference
+            android:key="pref_key_arduino_ntp_server_ip"
+            android:title="Ntp-Server"
+            android:summary="Server für die Zeitsynchronisation"
+            android:entries="@array/pref_array_ntp_labels"
+            android:entryValues="@array/pref_array_ntp_values"
+            android:defaultValue="2"
+            />
+    </PreferenceCategory>
+        
+    <PreferenceCategory android:title="@string/pref_title_arduino_display" >
+        <CheckBoxPreference 
+	        android:key="pref_key_arduino_display_temp_hum"
+	        android:summary="@string/pref_summary_arduino_display_temp_hum"
+	        android:title="@string/pref_title_arduino_display_temp_hum"
+	        android:defaultValue="true"
+	        />
+	    <CheckBoxPreference 
+	        android:key="pref_key_arduino_display_date_time"
+	        android:summary="@string/pref_summary_arduino_display_date_time"
+	        android:title="@string/pref_title_arduino_display_date_time"
+	        android:defaultValue="true"
+	        />
+	    <CheckBoxPreference 
+	        android:key="pref_key_arduino_display_light"
+	        android:summary="@string/pref_summary_arduino_display_light"
+	        android:title="@string/pref_title_arduino_display_light"
+	        android:defaultValue="false"
+	        />
+	    <CheckBoxPreference 
+	        android:key="pref_key_arduino_display_since"
+	        android:summary="@string/pref_summary_arduino_display_since"
+	        android:title="@string/pref_title_arduino_display_since"
+	        android:defaultValue="false"
+	        />
+	    <CheckBoxPreference 
+	        android:key="pref_key_arduino_display_freemem"
+	        android:summary="@string/pref_summary_arduino_display_freemem"
+	        android:title="@string/pref_title_arduino_display_freemem"
+	        android:defaultValue="false"
+	        />
+	    <CheckBoxPreference 
+	        android:key="pref_key_arduino_display_debug"
+	        android:summary="@string/pref_summary_arduino_display_debug"
+	        android:title="@string/pref_title_arduino_display_debug"
+	        android:defaultValue="false"
+	        />
+    </PreferenceCategory>
+
+</PreferenceScreen>

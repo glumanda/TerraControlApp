@@ -1,0 +1,14 @@
+<resources>
+    
+  <color name="splash_version_text">#069900</color>
+  <color name="splash_version_text_my">#06991A</color>
+  <!--  SUSE grün #73ba25 -->
+  <color name="splash_version_text_suse">#73ba25</color>
+  <color name="label">#000000</color>
+  <color name="value">#FFFFFF</color>
+  <color name="bg">#60808080</color> <!-- translucent #aa... -->
+  <color name="bgxz">#00808080</color> <!-- translucent #aa... -->
+  <color name="bgb">#60ffffff</color> <!-- translucent #aa... screen_background_light_transparent --> 
+  
+  
+</resources>

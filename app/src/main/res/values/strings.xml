@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">TerraControl2</string>
+    
+    <string name="splash_version">Version 2.05</string>
+    <string name="splash_version_date_2_0_4">29.06.2013</string>
+    <string name="splash_version_date">26.05.2016</string>
+    <string name="splash_history">Widget Update from App released</string>
+    <string name="splash_author">Andreas Jungierek</string>
+    <string name="splash_ssid">PokemonnetWLAN</string>
+    
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_arduino_display">Display</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_reboot">Neustarten</string>
+    <string name="menu_clear_widgets">WidgetsPrefs löschen</string>
+    <string name="menu_clear_widgets_text">Terra-Nummern für alle Widgets gelöscht!</string>
+    
+    <string-array name="terra_name">
+        <item>Chamäleon</item>
+        <item>Heuschreck</item>
+        <item>Test</item>
+    </string-array>
+
+    <string name="base_url">http://192.168.2.</string>
+
+    <string-array name="terra_ip">
+        <item>115</item>
+        <item>105</item>
+        <item>107</item>
+    </string-array>
+
+    <string name="ext_url_values">/values</string>
+    <string name="ext_url_set">/set</string>
+    <string name="ext_url_ping">/</string>
+    <string name="ext_url_reboot">/reboot</string>
+    <string name="ext_url_display">/display</string>
+    
+    <string name="alert_wlan">Kein WLAN verfügbar!</string>
+    <string name="alert_network">Fehler beim Netzwerkzugriff</string>
+    <string name="alert_ok">OK</string>
+    
+    <string name="progess_network">Netzwerkzugriff …</string>
+    
+    <string name="picker_title_on">Setze Einschaltzeit</string>
+    <string name="picker_title_off">Setze Ausschaltzeit</string>
+ 
+    <string name="pref_title_widget">Widget Einstellungen</string>
+    <string name="pref_title_arduino_display">Arduino Anzeigewerte</string>
+    <string name="pref_title_arduino_values">Arduino Werte</string>
+    
+    <string name="pref_title_widget_update">App aktualisiert Widget</string>
+    <string name="pref_summary_widget_update">Schalte Aktualisierung ein</string>
+    
+    <string name="pref_title_arduino_display_temp_hum">Temperatur/Luftfeuchtigkeit</string>
+    <string name="pref_summary_arduino_display_temp_hum">Zeige die aktuellen Werte an</string>
+    
+    <string name="pref_title_arduino_display_date_time">Datum/Zeit</string>
+    <string name="pref_summary_arduino_display_date_time">Zeige den aktuellen Zeitpunkt an</string>
+    
+    <string name="pref_title_arduino_display_light">Licht an/aus</string>
+    <string name="pref_summary_arduino_display_light">Zeige die Ein- und Ausschaltzeit an</string>
+    
+    <string name="pref_title_arduino_display_since">Startzeitpunkt</string>
+    <string name="pref_summary_arduino_display_since">Zeige den Zeitpunkt des Startes an</string>
+    
+    <string name="pref_title_arduino_display_freemem">Freier Speicher</string>
+    <string name="pref_summary_arduino_display_freemem">Zeige den freien Speicherplatz an</string>
+    
+    <string name="pref_title_arduino_display_debug">Debug</string>
+    <string name="pref_summary_arduino_display_debug">Anzeige für Debug-Zwecke</string>
+    
+    <string name="pref_title_arduino_light_threshold">Schwellwert Lichterkennung</string>
+    <string name="pref_summary_arduino_light_threshold">Ab wann wird Licht an erkannt</string>
+    
+    <string name="widget_updated_at">updated at</string>
+    <string name="widget_button_text">GO</string>
+    
+</resources>

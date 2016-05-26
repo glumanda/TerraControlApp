@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_terra_control_xz"
+    android:minWidth="72dp"
+    android:minHeight="18dp"
+    android:updatePeriodMillis="0" 
+    android:resizeMode="none"
+    android:previewImage="@drawable/widget_preview" 
+    android:configure="de.jungierek.terracontrol2.widget.WidgetConfigActivity"
+    >
+</appwidget-provider>
+<!-- 
+ -->

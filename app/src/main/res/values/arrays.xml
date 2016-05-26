@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string-array name="pref_array_ntp_labels">
+		<item>ntpd@glutexo</item>
+		<item>time.nist.gov</item>
+		<item>ntps1–0.cs.tu-berlin.de</item>
+		<item>ptbtime1.ptb.de</item>
+		<item>nist1-ny.ustiming.org</item>
+		<item>ntp2d.mcc.ac.uk</item>
+		<item>ntp2c.mcc.ac.uk</item>
+		<item>clock02.mnuk01.burstnet.eu</item> 
+		<item>ntp0.borg-collective.org.uk</item>
+	</string-array>
+	<string-array name="pref_array_ntp_values">
+		<item>192.168.2.8</item>
+		<item>192.43.244.18</item>
+		<item>130.149.17.21</item>
+		<item>192.53.103.108</item>
+		<item>64.90.182.55</item>
+		<item>66.27.60.10</item>
+		<item>130.88.200.4</item>
+		<item>31.193.9.10</item>
+		<item>82.68.133.225</item>
+	</string-array>
+	
+</resources>

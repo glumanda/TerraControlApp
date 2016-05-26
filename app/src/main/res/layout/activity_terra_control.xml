@@ -1,0 +1,38 @@
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="12dp"
+    android:background="@drawable/terracontrol_splash"
+    >
+
+    <!--  1. Zeile Temp + Hum -->
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="10" android:layout_marginBottom="6dp">
+		<include android:id="@+id/data1" layout="@layout/data_element" android:layout_weight="5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp"/>
+		<include android:id="@+id/data2" layout="@layout/data_element" android:layout_weight="5" android:layout_width="0dp" android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<!-- 2. Zeile Zeit ... -->
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="10" android:layout_marginBottom="6dp">
+		<include android:id="@+id/data3" layout="@layout/data_element" android:layout_weight="5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp"/>
+		<include android:id="@+id/data4" layout="@layout/data_element" android:layout_weight="5" android:layout_width="0dp" android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+	<!-- 3. Zeile aktuell ... -->
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="10" android:layout_marginBottom="6dp" >
+		<include android:id="@+id/data5" layout="@layout/data_element" android:layout_weight="10" android:layout_width="0dp" android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+	<!-- 4. Zeile gestartet ... -->
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="10" android:layout_marginBottom="6dp" >
+		<include android:id="@+id/data6" layout="@layout/data_element" android:layout_weight="10" android:layout_width="0dp" android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+	<!-- 5. Zeile Version ... -->
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="10" android:layout_marginBottom="6dp" >
+		<include android:id="@+id/data7" layout="@layout/data_element" android:layout_weight="10" android:layout_width="0dp" android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+</LinearLayout>
